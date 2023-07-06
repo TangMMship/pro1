@@ -1,0 +1,20 @@
+CMakeFiles/pro1.elf.dir/Core/Src/sysmem.c.obj: \
+ E:\workspace\clion\CLionProjects\pro1\Core\Src\sysmem.c \
+ e:\workspace\clion\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\errno.h \
+ e:\workspace\clion\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\errno.h \
+ e:\workspace\clion\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\reent.h \
+ e:\workspace\clion\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_ansi.h \
+ e:\workspace\clion\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\newlib.h \
+ e:\workspace\clion\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_newlib_version.h \
+ e:\workspace\clion\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\config.h \
+ e:\workspace\clion\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\ieeefp.h \
+ e:\workspace\clion\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\features.h \
+ e:\workspace\clion\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h \
+ e:\workspace\clion\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_types.h \
+ e:\workspace\clion\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\_types.h \
+ e:\workspace\clion\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\_default_types.h \
+ e:\workspace\clion\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\lock.h \
+ e:\workspace\clion\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h \
+ e:\workspace\clion\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\stdint.h \
+ e:\workspace\clion\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_intsup.h \
+ e:\workspace\clion\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_stdint.h
