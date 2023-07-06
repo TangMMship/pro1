@@ -30,8 +30,11 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "E:/workspace/clion/CLionProjects/pro1/Core/Src/adc.c" "CMakeFiles/pro1.elf.dir/Core/Src/adc.c.obj" "gcc" "CMakeFiles/pro1.elf.dir/Core/Src/adc.c.obj.d"
+  "E:/workspace/clion/CLionProjects/pro1/Core/Src/dma.c" "CMakeFiles/pro1.elf.dir/Core/Src/dma.c.obj" "gcc" "CMakeFiles/pro1.elf.dir/Core/Src/dma.c.obj.d"
   "E:/workspace/clion/CLionProjects/pro1/Core/Src/gpio.c" "CMakeFiles/pro1.elf.dir/Core/Src/gpio.c.obj" "gcc" "CMakeFiles/pro1.elf.dir/Core/Src/gpio.c.obj.d"
   "E:/workspace/clion/CLionProjects/pro1/Core/Src/main.c" "CMakeFiles/pro1.elf.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/pro1.elf.dir/Core/Src/main.c.obj.d"
+  "E:/workspace/clion/CLionProjects/pro1/Core/Src/retarget.c" "CMakeFiles/pro1.elf.dir/Core/Src/retarget.c.obj" "gcc" "CMakeFiles/pro1.elf.dir/Core/Src/retarget.c.obj.d"
   "E:/workspace/clion/CLionProjects/pro1/Core/Src/stm32f1xx_hal_msp.c" "CMakeFiles/pro1.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj" "gcc" "CMakeFiles/pro1.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj.d"
   "E:/workspace/clion/CLionProjects/pro1/Core/Src/stm32f1xx_it.c" "CMakeFiles/pro1.elf.dir/Core/Src/stm32f1xx_it.c.obj" "gcc" "CMakeFiles/pro1.elf.dir/Core/Src/stm32f1xx_it.c.obj.d"
   "E:/workspace/clion/CLionProjects/pro1/Core/Src/syscalls.c" "CMakeFiles/pro1.elf.dir/Core/Src/syscalls.c.obj" "gcc" "CMakeFiles/pro1.elf.dir/Core/Src/syscalls.c.obj.d"
@@ -39,6 +42,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/workspace/clion/CLionProjects/pro1/Core/Src/system_stm32f1xx.c" "CMakeFiles/pro1.elf.dir/Core/Src/system_stm32f1xx.c.obj" "gcc" "CMakeFiles/pro1.elf.dir/Core/Src/system_stm32f1xx.c.obj.d"
   "E:/workspace/clion/CLionProjects/pro1/Core/Src/usart.c" "CMakeFiles/pro1.elf.dir/Core/Src/usart.c.obj" "gcc" "CMakeFiles/pro1.elf.dir/Core/Src/usart.c.obj.d"
   "E:/workspace/clion/CLionProjects/pro1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" "CMakeFiles/pro1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj" "gcc" "CMakeFiles/pro1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj.d"
+  "E:/workspace/clion/CLionProjects/pro1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c" "CMakeFiles/pro1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj" "gcc" "CMakeFiles/pro1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj.d"
+  "E:/workspace/clion/CLionProjects/pro1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c" "CMakeFiles/pro1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj" "gcc" "CMakeFiles/pro1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj.d"
   "E:/workspace/clion/CLionProjects/pro1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" "CMakeFiles/pro1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj" "gcc" "CMakeFiles/pro1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj.d"
   "E:/workspace/clion/CLionProjects/pro1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" "CMakeFiles/pro1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj" "gcc" "CMakeFiles/pro1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj.d"
   "E:/workspace/clion/CLionProjects/pro1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c" "CMakeFiles/pro1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj" "gcc" "CMakeFiles/pro1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj.d"

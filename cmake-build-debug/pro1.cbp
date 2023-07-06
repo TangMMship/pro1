@@ -96,10 +96,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/workspace/clion/CLionProjects/pro1/Core/Inc/adc.h">
+			<Option target="pro1.elf"/>
+		</Unit>
+		<Unit filename="E:/workspace/clion/CLionProjects/pro1/Core/Inc/dma.h">
+			<Option target="pro1.elf"/>
+		</Unit>
 		<Unit filename="E:/workspace/clion/CLionProjects/pro1/Core/Inc/gpio.h">
 			<Option target="pro1.elf"/>
 		</Unit>
 		<Unit filename="E:/workspace/clion/CLionProjects/pro1/Core/Inc/main.h">
+			<Option target="pro1.elf"/>
+		</Unit>
+		<Unit filename="E:/workspace/clion/CLionProjects/pro1/Core/Inc/retarget.h">
 			<Option target="pro1.elf"/>
 		</Unit>
 		<Unit filename="E:/workspace/clion/CLionProjects/pro1/Core/Inc/stm32f1xx_hal_conf.h">
@@ -111,10 +120,19 @@
 		<Unit filename="E:/workspace/clion/CLionProjects/pro1/Core/Inc/usart.h">
 			<Option target="pro1.elf"/>
 		</Unit>
+		<Unit filename="E:/workspace/clion/CLionProjects/pro1/Core/Src/adc.c">
+			<Option target="pro1.elf"/>
+		</Unit>
+		<Unit filename="E:/workspace/clion/CLionProjects/pro1/Core/Src/dma.c">
+			<Option target="pro1.elf"/>
+		</Unit>
 		<Unit filename="E:/workspace/clion/CLionProjects/pro1/Core/Src/gpio.c">
 			<Option target="pro1.elf"/>
 		</Unit>
 		<Unit filename="E:/workspace/clion/CLionProjects/pro1/Core/Src/main.c">
+			<Option target="pro1.elf"/>
+		</Unit>
+		<Unit filename="E:/workspace/clion/CLionProjects/pro1/Core/Src/retarget.c">
 			<Option target="pro1.elf"/>
 		</Unit>
 		<Unit filename="E:/workspace/clion/CLionProjects/pro1/Core/Src/stm32f1xx_hal_msp.c">
@@ -222,6 +240,12 @@
 		<Unit filename="E:/workspace/clion/CLionProjects/pro1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
 			<Option target="pro1.elf"/>
 		</Unit>
+		<Unit filename="E:/workspace/clion/CLionProjects/pro1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h">
+			<Option target="pro1.elf"/>
+		</Unit>
+		<Unit filename="E:/workspace/clion/CLionProjects/pro1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h">
+			<Option target="pro1.elf"/>
+		</Unit>
 		<Unit filename="E:/workspace/clion/CLionProjects/pro1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
 			<Option target="pro1.elf"/>
 		</Unit>
@@ -267,6 +291,9 @@
 		<Unit filename="E:/workspace/clion/CLionProjects/pro1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h">
 			<Option target="pro1.elf"/>
 		</Unit>
+		<Unit filename="E:/workspace/clion/CLionProjects/pro1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h">
+			<Option target="pro1.elf"/>
+		</Unit>
 		<Unit filename="E:/workspace/clion/CLionProjects/pro1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h">
 			<Option target="pro1.elf"/>
 		</Unit>
@@ -301,6 +328,12 @@
 			<Option target="pro1.elf"/>
 		</Unit>
 		<Unit filename="E:/workspace/clion/CLionProjects/pro1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
+			<Option target="pro1.elf"/>
+		</Unit>
+		<Unit filename="E:/workspace/clion/CLionProjects/pro1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c">
+			<Option target="pro1.elf"/>
+		</Unit>
+		<Unit filename="E:/workspace/clion/CLionProjects/pro1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c">
 			<Option target="pro1.elf"/>
 		</Unit>
 		<Unit filename="E:/workspace/clion/CLionProjects/pro1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
