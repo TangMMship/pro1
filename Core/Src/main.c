@@ -20,6 +20,7 @@
 #include "main.h"
 #include "adc.h"
 #include "dma.h"
+#include "tim.h"
 #include "usart.h"
 #include "gpio.h"
 
@@ -66,7 +67,7 @@ void SystemClock_Config(void);
 
 PUTCHAR_PROTOTYPE
 {
-    HAL_UART_Transmit(&huart1,(uint8_t *)&ch,1,0xFFFF);//闃诲鏂瑰紡鎵撳嵃,涓插彛1
+    HAL_UART_Transmit(&huart1,(uint8_t *)&ch,1,0xFFFF);//阻塞方式打印,串口1
     return ch;
 }
 /* USER CODE END 0 */
@@ -102,20 +103,28 @@ int main(void)
   MX_DMA_Init();
   MX_USART1_UART_Init();
   MX_ADC1_Init();
+  MX_TIM1_Init();
   /* USER CODE BEGIN 2 */
-  //adc閲囨牱鏍″噯 Calibration鏍″噯
+  //adc采样校准 Calibration校准
   HAL_ADCEx_Calibration_Start(&hadc1);
   uint32_t a=0;
   HAL_ADC_Start_DMA(&hadc1,(uint32_t *)&a,1);
+  //使能定时器中1
+  HAL_TIM_Base_Start_IT(&htim1);
+  int cnt=0;
+  //》》》》》》》》》》》》》》》》》》》》》》》》》》》》》注意把dma中断注释《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《，
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+
   while (1)
   {
-
-      printf("as\r\n");
-      printf("%d\r\n",a);
+      cnt=htim1.Instance->CNT;
+      //printf("%d\r\n",cnt);
+      //printf("as\r\n");
+      //printf("%d\r\n",a);
       /*HAL_Delay(1000);
       HAL_GPIO_TogglePin(GPIOC,GPIO_PIN_13);
       printf("hello\r\n");

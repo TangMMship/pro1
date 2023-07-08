@@ -19,6 +19,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/pro1.elf.dir/Core/Src/sysmem.c.obj.d"
   "CMakeFiles/pro1.elf.dir/Core/Src/system_stm32f1xx.c.obj"
   "CMakeFiles/pro1.elf.dir/Core/Src/system_stm32f1xx.c.obj.d"
+  "CMakeFiles/pro1.elf.dir/Core/Src/tim.c.obj"
+  "CMakeFiles/pro1.elf.dir/Core/Src/tim.c.obj.d"
   "CMakeFiles/pro1.elf.dir/Core/Src/usart.c.obj"
   "CMakeFiles/pro1.elf.dir/Core/Src/usart.c.obj.d"
   "CMakeFiles/pro1.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj"

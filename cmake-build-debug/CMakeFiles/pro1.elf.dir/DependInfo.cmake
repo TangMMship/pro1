@@ -40,6 +40,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/workspace/clion/CLionProjects/pro1/Core/Src/syscalls.c" "CMakeFiles/pro1.elf.dir/Core/Src/syscalls.c.obj" "gcc" "CMakeFiles/pro1.elf.dir/Core/Src/syscalls.c.obj.d"
   "E:/workspace/clion/CLionProjects/pro1/Core/Src/sysmem.c" "CMakeFiles/pro1.elf.dir/Core/Src/sysmem.c.obj" "gcc" "CMakeFiles/pro1.elf.dir/Core/Src/sysmem.c.obj.d"
   "E:/workspace/clion/CLionProjects/pro1/Core/Src/system_stm32f1xx.c" "CMakeFiles/pro1.elf.dir/Core/Src/system_stm32f1xx.c.obj" "gcc" "CMakeFiles/pro1.elf.dir/Core/Src/system_stm32f1xx.c.obj.d"
+  "E:/workspace/clion/CLionProjects/pro1/Core/Src/tim.c" "CMakeFiles/pro1.elf.dir/Core/Src/tim.c.obj" "gcc" "CMakeFiles/pro1.elf.dir/Core/Src/tim.c.obj.d"
   "E:/workspace/clion/CLionProjects/pro1/Core/Src/usart.c" "CMakeFiles/pro1.elf.dir/Core/Src/usart.c.obj" "gcc" "CMakeFiles/pro1.elf.dir/Core/Src/usart.c.obj.d"
   "E:/workspace/clion/CLionProjects/pro1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" "CMakeFiles/pro1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj" "gcc" "CMakeFiles/pro1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj.d"
   "E:/workspace/clion/CLionProjects/pro1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c" "CMakeFiles/pro1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj" "gcc" "CMakeFiles/pro1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj.d"
