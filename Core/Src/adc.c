@@ -98,8 +98,8 @@ void HAL_ADC_MspInit(ADC_HandleTypeDef* adcHandle)
     hdma_adc1.Init.MemInc = DMA_MINC_ENABLE;
     hdma_adc1.Init.PeriphDataAlignment = DMA_PDATAALIGN_HALFWORD;
     hdma_adc1.Init.MemDataAlignment = DMA_MDATAALIGN_HALFWORD;
-    hdma_adc1.Init.Mode = DMA_NORMAL;
-    hdma_adc1.Init.Priority = DMA_PRIORITY_LOW;
+    hdma_adc1.Init.Mode = DMA_CIRCULAR;
+    hdma_adc1.Init.Priority = DMA_PRIORITY_HIGH;
     if (HAL_DMA_Init(&hdma_adc1) != HAL_OK)
     {
       Error_Handler();
@@ -144,7 +144,7 @@ uint16_t adc1_in(void)
     HAL_ADC_Start(&hadc1);
     //adc采集等待  最多10ms
     HAL_ADC_PollForConversion(&hadc1,10);
-    //HAL_IS_BIT_SET(REG, BIT)         (((REG) & (BIT)) != 0U) 鑻eg鍜宐it閮戒负1鍒欒緭锟??1鍚﹀垯杈撳嚭0
+    //HAL_IS_BIT_SET(REG, BIT)         (((REG) & (BIT)) != 0U)
     //HAL_ADC_STATE_REG_EOC  adc采集完成标准位
     if(HAL_IS_BIT_SET(HAL_ADC_GetState(&hadc1),HAL_ADC_STATE_REG_EOC))
     {

@@ -106,7 +106,7 @@ int main(void)
   //adc采样校准 Calibration校准
   HAL_ADCEx_Calibration_Start(&hadc1);
   uint32_t a=0;
-  HAL_ADC_Start_DMA(&hadc1,&a,1);
+  HAL_ADC_Start_DMA(&hadc1,(uint32_t *)&a,1);
   /* USER CODE END 2 */
 
   /* Infinite loop */
